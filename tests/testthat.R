@@ -1,4 +1,4 @@
 library(testthat)
-library(DND_App)
+library(DNDApp)
 
-test_check("DND_App")
+test_check("DNDApp")
