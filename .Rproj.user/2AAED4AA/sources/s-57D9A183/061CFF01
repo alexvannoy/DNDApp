@@ -3,22 +3,22 @@
     "path": "~/Git/DND_App/.gitignore",
     "project_path": ".gitignore",
     "type": "gitignore",
-    "hash": "1191205557",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1619236673271.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
-        "cursorPosition": "1,0",
+        "cursorPosition": "2,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1619236677,
+    "lastKnownWriteTime": 1619236963,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1619236677745,
+    "last_content_update": 1619236963829,
     "read_only": false,
     "read_only_alternatives": []
 }
