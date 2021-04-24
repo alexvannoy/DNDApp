@@ -1,0 +1,27 @@
+shit <- R6::R6Class("shit", 
+                    public = list(
+                      subclass1 = NULL,
+                      subclass2 = NULL,
+                      
+                      initialize = function(subclass1, subclass2) {
+                        self$subclass1 <- eval(parse(text = paste0(subclass1, "$new()")))
+                        self$subclass2 <- eval(parse(text = paste0(subclass2, "$new()")))
+                      }
+                    ))
+
+
+sub1 <- R6::R6Class("sub1",
+                         public = list(
+                           subTrait1 = NULL,
+                           initialize = function(x) {
+                             self$subTrait1 <- x
+                             invisible(self)
+                           }
+                         ))
+
+sub2 <- R6::R6Class("sub2", list(
+                           subTrait2 = NULL,
+                           initialize = function(x) {
+                             self$subTrait2 <- x
+                             invisible(self)
+                           }))

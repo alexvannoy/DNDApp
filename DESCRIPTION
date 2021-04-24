@@ -1,0 +1,20 @@
+Package: DNDApp
+Title: Packages a web app that creates DND characters
+Version: 0.0.1
+Authors@R: 
+    person(given = "Alex",
+           family = "Vannoy",
+           role = c("aut", "cre"),
+           email = "vannoy.alex.a@gmail.com")
+Description: Assists in the creation of DND characters via a shiny application 
+  and R6 classes so I get additional pratice with both.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+    R6 (>= 2.4.1),
+    shiny (>= 1.5.0),
+Suggests: 
+    testthat
