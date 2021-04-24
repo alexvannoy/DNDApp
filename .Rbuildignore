@@ -2,4 +2,4 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^\.github
-^\json_data
+\\json_data
